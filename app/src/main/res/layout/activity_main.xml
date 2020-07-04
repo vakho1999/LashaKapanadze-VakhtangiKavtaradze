@@ -11,28 +11,19 @@
     <ImageView
         android:layout_width="183dp"
         android:layout_height="162dp"
+        android:layout_marginTop="13dp"
         android:layout_gravity="center_horizontal"
-        android:src="@mipmap/Policee"></ImageView>
+        android:src="@mipmap/policee" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="სისტემაში შესასვლელად აირჩიეთ თქვენთვის სასურველი მეთოდი:"
-        android:textSize="20dp"
+
+        android:text="გთხოვთ ჯარიმების გასაცნობად შეიყვანეთ თქვენი ტრანსპორტის ნომერი"
+        android:textSize="16sp"
         android:layout_marginBottom="30px"
         android:textColor="#000000"
-        android:layout_marginTop="160dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp">
-    </TextView>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ან "
-        android:textSize="60px"
-        android:layout_marginBottom="30px"
-        android:textColor="#000000"
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="180dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp">
     </TextView>
@@ -45,44 +36,10 @@
         android:layout_marginTop="50dp">
 
         <EditText
-            android:layout_marginTop="50dp"
-            android:id="@+id/techN"
-            android:layout_width="380dp"
-            android:layout_height="150px"
-            android:hint="ტექ-პასპორტის ნომერი">
-        </EditText>
-        <EditText
-            android:id="@+id/carN_1"
-            android:layout_width="380dp"
-            android:layout_height="150px"
-            android:hint="სახელმწიფო ნომერი">
-        </EditText>
-        <EditText
-            android:id="@+id/protocolN"
-            android:layout_width="380dp"
-            android:layout_height="150px"
-            android:hint="ქვითრის ნომერი"
-            android:layout_marginTop="40dp">
-        </EditText>
-        <EditText
             android:id="@+id/carN_2"
             android:layout_width="380dp"
             android:layout_height="150px"
             android:hint="სახელმწიფო ნომერი">
-        </EditText>
-        
-        <ImageView
-            android:id="@+id/captchaPhoto"
-            android:layout_marginTop="30dp"
-            android:layout_width="200dp"
-            android:layout_height="50dp"
-            android:src="@mipmap/captcha">
-        </ImageView>
-        <EditText
-            android:id="@+id/captchaTxt"
-            android:layout_width="380dp"
-            android:layout_height="150px"
-            android:hint="captcha">
         </EditText>
 
         <Button
